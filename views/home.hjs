@@ -35,7 +35,7 @@
           <div class="container">
             <h1>Forumerly<span class="badge">In-dev</span></h1>
             <p>A basic internet forum application.</p>
-            <p><a class="btn btn-default btn-lg" href="/about/forumerly" role="button">About project</a> <a class="btn btn-info btn-lg" href="/forumerly" target="_blank" role="button">View app <span class="glyphicon glyphicon-new-window"></span></a></p>
+            <p><a class="btn btn-default btn-lg" href="/about/forumerly" role="button">About project</a> <a class="btn btn-info btn-lg" href="http://forumerly.jayvolr.me/" target="_blank" role="button">View app <span class="glyphicon glyphicon-new-window"></span></a></p>
           </div>
         </div>
 

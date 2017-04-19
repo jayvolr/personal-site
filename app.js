@@ -1,5 +1,5 @@
 const express = require('express')
-const aboutRoutes = require('./routes/about');
+const aboutRoutes = require('./routes/about')
 
 express()
   .set('view engine', 'hjs')
