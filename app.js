@@ -1,13 +1,13 @@
 const express = require('express')
-const aboutRoutes = require('./routes/about')
+const favicon = require('serve-favicon')
+const path = require('path')
 
 express()
-  .set('view engine', 'hjs')
+  .use(favicon(path.join(__dirname, 'public','images','jonIcon.ico')))
   .use(express.static(__dirname + '/public'))
-  .get('/', (req, res) => {
-    res.render('home')
+  .get('/about/:app', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/'+req.params.app+'.html'))
   })
-  .use('/about', aboutRoutes)
   .listen('3000', () => {
     console.log('Server now listening on port 3000...')
   })
